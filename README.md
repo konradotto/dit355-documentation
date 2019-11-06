@@ -1,6 +1,7 @@
 # Requirements
-1. As a user I want to request routes so that I can ensure I am travelling to the right destination.
-1. As västtrafik I want to see travelpatterns so that I can better understand my customers.
-1. As västtrafik I want to recieve users travel requests so that I can identify the blindspots in public transportation. 
+1. The system shall be able to recieve route requests.
+1. The system shall be able to calculate time to destination.
+1. The system shall be able to visualize user travel patterns.
+1. The system shall be able to identify blindspots through visualization. 
 
 
