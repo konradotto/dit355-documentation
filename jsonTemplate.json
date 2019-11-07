@@ -1,0 +1,18 @@
+
+{
+    "travelRequest" : [{
+        "source":{
+            "longitude":"Number",
+            "latitude":"Number"
+        },
+        "destination": {
+	        "longitude":"Number",
+	        "latitude":"Number"
+        },
+        "timestamp":{
+            "departure":"String",
+            "arrival": "String",
+            "hasDeparture":"Boolean"
+        }
+    }]
+}
