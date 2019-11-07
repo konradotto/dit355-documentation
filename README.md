@@ -13,6 +13,7 @@
 
 
 # Quality requirements
+1. The Visualisation should be aesthetically pleasing for the user
 
 # Use cases
 
