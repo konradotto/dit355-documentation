@@ -1,4 +1,3 @@
-
 {
     "travelRequest" : [{
         "source":{
@@ -13,6 +12,9 @@
             "departure":"String",
             "arrival": "String",
             "hasDeparture":"Boolean"
+        },
+        "transportation":{
+            "type":"Int"
         }
     }]
 }
