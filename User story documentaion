@@ -1,11 +1,11 @@
 User stories
 
-1. As a user I want to share my location so that Västtrafik knows where I am.
+1. As a traveller I want to share my location so that Västtrafik knows where I am.
 
-2. As a user I want to send my destination so that Västtrafik knows where I want to go. 
+2. As a traveller I want to send my destination so that Västtrafik knows where I want to go. 
 
 3. As Västtrafik I want to recieve user information so that we can detect blindspots are.
 
-4. As a user I want to send time details so that västtrafik can plan my trip.
+4. As a traveller I want to send time details so that västtrafik can plan my trip.
 
 5. As Västtrafik I want to see a graphical representation so that we can analyze the travellers behaviour.
