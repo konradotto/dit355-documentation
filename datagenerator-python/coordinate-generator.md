@@ -6,16 +6,16 @@ code to generate coordinates in other areas should be possible without much addi
 however.
 
 ## Approaches
-- Epicentrum: Select a centrum for the generation of coordinates and generate generate 
-coordinates in randomly selected circular distance.
-Pros: simple, balanced distribution
-Cons: Unaware of environment (creating coordinates in sea, forests, lakes)
-- Polygon: Select a polygon and randomly generate coordinates within.
-Pros: can be very precise (excluding sea, forests, lakes, river)
-Cons: very complex model, difficult to define good polygon
-- Point-Cloud: Randomly select coordinates form a list of locations.
-Pros: Simple implementation, can deal with non-urban areas
-Cons: discrete set of locations
+- **Epicentrum:** Select a centrum for the generation of coordinates and generate generate 
+coordinates in randomly selected circular distance.  
+  **Pros:** simple, balanced distribution  
+  **Cons:** Unaware of environment (creating coordinates in sea, forests, lakes)
+- **Polygon:** Select a polygon and randomly generate coordinates within.  
+  **Pros:** can be very precise (excluding sea, forests, lakes, river)  
+  **Cons:** very complex model, difficult to define good polygon
+- **Point-Cloud:** Randomly select coordinates form a list of locations.  
+  **Pros:** Simple implementation, can deal with non-urban areas  
+  **Cons:** discrete set of locations
 
 ## Implementations
 
