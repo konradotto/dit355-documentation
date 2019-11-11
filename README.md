@@ -1,23 +1,22 @@
-## Visual Transportation Support System 
+# Visual Transportation Support System 
+A visualization tool for the decision support system of the city planners in the greater Gothenburg region. 
+
+# about
+This repository is used to document the system.
+This tool will provide user information such as location, destination, timestamp of travelers. 
+Transportation companies can use this tool to improve their services through visualization of the travellers data.
+The visualization will allow the service provider to identify blindspots and routes which will assist decition-making of the cityplanners.
+
+# software explained
+
+*  Mosquitto -  It is an infrastructure for the publish and subscribe architectual style
+*  Swift - Used to visualize the data on IOS devices
+*  Python - Used to generate data and subscribe to topics 
+*  Paho - provides mqtt protocol
 
 
 
-# Stakeholders
 
-# Functional Requirements
-1. The system shall be able to recieve route requests.
-2. The system shall be able to calculate time to destination.
-3. The system shall be able to visualize user travel patterns.
-4. The system shall be able to identify blindspots through visualization. 
-5. The system shall be able to receive map coordinates
-6. The system shall be able to receive time stamps
-7. The system shall be able to visualise coordinates on a map
-
-
-# Quality requirements
-1. The Visualisation should be aesthetically pleasing for the user
-
-# Use cases
 
 
 
