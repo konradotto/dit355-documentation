@@ -17,15 +17,15 @@
 
 # Quality requirements
 
-1. The Visualisation should be aesthetically pleasing for the user
+8. The Visualisation should be aesthetically pleasing for the user
 
-1. The Visualizer should display data efficiently and fast within a 2 second interval
+9. The Visualizer should display data efficiently and fast within a 2 second interval
 
-1. The system should be easy to navigate and use
+10. The system should be easy to navigate and use
 
 
 #Constraints
 
-1. System shall follow regulations regarding GDPR
+11. System shall follow regulations regarding GDPR
 
-1. System shall be constriant to work in the Gothenburg area
+12. System shall be constriant to work in the Gothenburg area
