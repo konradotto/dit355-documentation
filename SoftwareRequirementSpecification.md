@@ -24,7 +24,7 @@
 10. The system should be easy to navigate and use
 
 
-#Constraints
+# Constraints
 
 11. System shall follow regulations regarding GDPR
 
