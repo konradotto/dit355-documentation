@@ -14,18 +14,25 @@
 
 1. The system shall be able to visualise coordinates on a map
 
+1. The system shall be able to filter travel types.
+
+1. the system shall be able to filter out coordinates
+
+
 
 # Quality requirements
 
-8. The Visualisation should be aesthetically pleasing for the user
+10. The Visualisation should be aesthetically pleasing for the user
 
-9. The Visualizer should display data efficiently and fast within a 2 second interval
+11. The Visualizer should display data efficiently and fast within a 2 second interval
 
-10. The system should be easy to navigate and use
+12. The system should be easy to navigate and use
+
+13. The filtering should give correct data 95% of the time 
 
 
 # Constraints
 
-11. System shall follow regulations regarding GDPR
+14. System shall follow regulations regarding GDPR
 
-12. System shall be constriant to work in the Gothenburg area
+15. System shall be constriant to work in the Gothenburg area
