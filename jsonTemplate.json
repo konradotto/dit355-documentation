@@ -1,20 +1,28 @@
 {
     "travelRequest" : [{
-        "source":{
-            "longitude":"Number",
-            "latitude":"Number"
-        },
-        "destination": {
-	        "longitude":"Number",
-	        "latitude":"Number"
-        },
-        "timestamp":{
-            "departure":"String",
-            "arrival": "String",
-            "hasDeparture":"Boolean"
-        },
-        "transportation":{
-            "type":"Number"
-        }
+        {
+            "deviceId":"Number",
+            "requestId": "Number",
+            "origin":{
+                "latitude":"Number",
+                "longitude":"Number"
+                
+            },
+            "destination":{
+                "latitude":"Number",
+                "longitude":"Number"
+                
+            },
+            "timeOfDeparture":"Number",
+            "purpose": "String",
+            "transportationType": "Number"
+            
+        } 
+        
     }]
+    
 }
+
+
+        
+        
