@@ -35,3 +35,10 @@
 * The representation should be easy to understand.
 * Traveller behaviour should be easy to see.
 * Geographical representation should display locations through markers on map.
+
+## US 6.
+* As Västtrafik I want to filter out the data recieved from the user so that I can analyze a specific type of data.
+### Acceptance Criteria: 
+* The data will be isolated from the json
+* The data will be provided in the right fromat
+* The data is readable
