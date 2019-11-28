@@ -10,7 +10,7 @@
 #### Sprint planning for sprint 2 
 * Come up with clear milestones for the sprint. 
 * Change the data area so all data is from a circle around gothenburg area. 
-* Åipe and filter pipe and filer pipe and filter (black & yellow melody ) - style.
+* Pipe and filter pipe and filer pipe and filter (black & yellow melody ) - style.
 * Add more publisher.
 * Implement which type of travel method used. 
 * Filter for time information. 
