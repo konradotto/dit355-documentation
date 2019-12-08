@@ -1,6 +1,6 @@
 # Sprint retrospective:
 
-###What have you been working on during the sprint?
+### What have you been working on during the sprint?
 ##### Kardo
 * behaviour diagram + component diagram, visualizer
 ##### Konrad
