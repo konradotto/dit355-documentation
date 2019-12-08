@@ -17,6 +17,7 @@
 1. The system shall be able to filter travel types.
 
 1. the system shall be able to filter out coordinates
+ 
 
 
 
@@ -30,9 +31,11 @@
 
 13. The filtering should give correct data 95% of the time 
 
+14. The system shall not crash if network dies 97% of the time 
+
 
 # Constraints
 
-14. System shall follow regulations regarding GDPR
+15. System shall follow regulations regarding GDPR
 
-15. System shall be constriant to work in the Gothenburg area
+16. System shall be constriant to work in the Gothenburg area
