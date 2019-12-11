@@ -1,6 +1,7 @@
 # Visual Transportation Support System 
 A Visualization tool to assist city planners and Västtrafik with identifying bottlenecks and blindspots around the city which supports their decisionmaking. 
 
+[About](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/DocumentationRework/README.md#about)
 ## Navigate
 * [User stories](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/UserStories.md)
 * [Requirements](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/SoftwareRequirementSpecification.md)
