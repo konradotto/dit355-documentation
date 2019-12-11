@@ -69,7 +69,7 @@ For more details and models read [Architectures](https://git.chalmers.se/courses
 * Security
 * Modularity
 
- Read [forces and drivers](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/DocumentationRework/ForcesAndDrivers.md) for additional details and description.
+ Read [forces and drivers](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/ForcesAndDrivers.md) for additional details and description.
 
 
 ## Architectural modelling: 
@@ -86,13 +86,19 @@ Each model represent a view of the system.
 #### IOS Class diagram
 ![Component Diagram](Architecture/IOSClientClassDiagram.png)
 
+* to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
 __________________________________________________________________________________
 #### Publish subscribe component diagram 
 ![Component Diagram](Architecture/uppdaterad_component.jpg)
+* to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
 __________________________________________________________________________________
 
 #### IOS component diagram
 ![Component Diagram](Architecture/IOSClientComponentsDiagram.png)
+* to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
 __________________________________________________________________________________
 
 
@@ -100,14 +106,20 @@ ________________________________________________________________________________
 #### Get traveler behaviour
 
 ![Sequence diagram](Architecture/Get_traveler_behaviour.jpg)
+* to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
 __________________________________________________________________________________
 
 #### IOS behavioural view
 ![Sequence diagram](Architecture/IOSClientBehaviourDiagram.png)
+* to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
 __________________________________________________________________________________
 
 #### Use case view
 ![Use Case diagram](Architecture/use_case_diagram.jpg)
+* to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
 __________________________________________________________________________________
 
 #### Deployment view
