@@ -13,7 +13,7 @@ A Visualization tool to assist city planners and Västtrafik with identifying bo
 * [behavioural diagram](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master#behavioural-view)
 * [Use case diagram](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master#use-case-view)
 * [deployment models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master#deployment-view)
-* [Files](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/masater#files)
+* [Files](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master#files)
 
 
 ## About
