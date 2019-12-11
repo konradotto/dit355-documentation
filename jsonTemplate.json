@@ -3,6 +3,7 @@
         {
             "deviceId":"Number",
             "requestId": "Number",
+            "Issuance": "Number",
             "origin":{
                 "latitude":"Number",
                 "longitude":"Number"
