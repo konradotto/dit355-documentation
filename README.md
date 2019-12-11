@@ -7,6 +7,7 @@ A Visualization tool to assist city planners and Västtrafik with identifying bo
 * [About](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#about)
 * [Software Explained](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#software-explained)
 * [Architectural Styles](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#architectural-styles)
+* [Forces and Drivers](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#forces-and-drivers)
 * [Files](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#files)
 
 
@@ -30,7 +31,6 @@ The visualization will allow the service provider to identify blindspots and rou
 *  Paho - provides mqtt protocol
 
 ## Architectural Styles
-
 Software architecture allows us to plan the structure of the system in beforehand so that
 we can foresee possible risks, reduce complexity and development time.
 
@@ -49,6 +49,43 @@ The data in turn gets transformed in the filer which pipes then transport to the
 The sink feeds out the data.
 
 For more details and models read [Architectures](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
+## Forces and drivers: 
+##### Forces:
+* Security
+* Availability
+* Scalability
+* Modifiability
+* Modularity
+
+##### Drivers:
+* Scalability
+* Modifiability
+* Security
+* Modularity
+
+ Read [forces and drivers](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/DocumentationRework/ForcesAndDrivers.md) for additional details and description.
+
+
+## Architectural modelling: 
+With the requirements and our user stories, we have created models.
+
+Each model represent a view of the system.
+* Structural view
+* Behavioural view
+* Use case view
+* Deployment view 
+
+#### Structural view
+
+#### Behavioural view
+
+#### Use case view
+
+#### Deployment view
+
+
+
 
 ## Files
 * [User stories](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/UserStories.md)
