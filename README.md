@@ -1,18 +1,14 @@
 # Visual Transportation Support System 
 A Visualization tool to assist city planners and Västtrafik with identifying bottlenecks and blindspots around the city which supports their decisionmaking. 
 
-[About](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#about)
 
-[Software Explained](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#software-explained)
+## Navigate in Readme
 
-## Navigate
-* [User stories](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/UserStories.md)
-* [Requirements](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/SoftwareRequirementSpecification.md)
-* [Forces and Drivers](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/ForcesAndDrivers.md)
-* [Cost analysis](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/CostAnalysis.md)
-* [Project management documetation](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/ProjectManagementReport)
-* [Architectures](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
-* [JSON structure](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/jsonTemplate.json)
+* [About](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#about)
+* [Software Explained](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#software-explained)
+* [Architectural Styles](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#architectural-styles)
+* [Files](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#files)
+
 
 ## About
 This is a repository that documents the system.
@@ -25,6 +21,7 @@ Transportation companies can use this tool to improve their services through vis
 
 The visualization will allow the service provider to identify blindspots and routes which will assist the decision-making of the city planners.
 
+
 ## Software Explained
 
 *  Mosquitto -  It is an infrastructure for the publish and subscribe architectual style
@@ -32,7 +29,35 @@ The visualization will allow the service provider to identify blindspots and rou
 *  Python - Used to generate data and subscribe to topics 
 *  Paho - provides mqtt protocol
 
+## Architectural Styles
 
+Software architecture allows us to plan the structure of the system in beforehand so that
+we can foresee possible risks, reduce complexity and development time.
+
+The Architectural styles we are using are:
+* Publish and Subscripe
+* Pipe and filter
+
+##### Publish and subscribe
+Subscribers subscribe to a topic they are interested in.
+Publisher sends messages and subscribers of that topic recieves them.
+Publishers do not know who the subscribers are and vice versa.
+
+##### Pipe and filter
+Pump feeds the data which pipes transport.
+The data in turn gets transformed in the filer which pipes then transport to the sink.
+The sink feeds out the data.
+
+For more details and models read [Architectures](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
+## Files
+* [User stories](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/UserStories.md)
+* [Requirements](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/SoftwareRequirementSpecification.md)
+* [Forces and Drivers](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/ForcesAndDrivers.md)
+* [Cost analysis](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/CostAnalysis.md)
+* [Project management documetation](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/ProjectManagementReport)
+* [Architectures](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+* [JSON structure](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/jsonTemplate.json)
 
 
 
