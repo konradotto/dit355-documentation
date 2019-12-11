@@ -8,6 +8,11 @@ A Visualization tool to assist city planners and Västtrafik with identifying bo
 * [Software Explained](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#software-explained)
 * [Architectural Styles](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#architectural-styles)
 * [Forces and Drivers](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#forces-and-drivers)
+* [Architectural Modelling](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#architectural-modelling)
+* [Structural diagram](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#structural-view)
+* [behavioural diagram](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#behavioural-view)
+* [Use case diagram](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#use-case-view)
+* [deployment models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#deployment-view)
 * [Files](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/DocumentationRework#files)
 
 
@@ -76,14 +81,37 @@ Each model represent a view of the system.
 * Use case view
 * Deployment view 
 
-#### Structural view
+### Structural view
 
-#### Behavioural view
+#### IOS Class diagram
+![Component Diagram](Architecture/IOSClientClassDiagram.png)
+
+__________________________________________________________________________________
+#### Publish subscribe component diagram 
+![Component Diagram](Architecture/uppdaterad_component.jpg)
+__________________________________________________________________________________
+
+#### IOS component diagram
+![Component Diagram](Architecture/IOSClientComponentsDiagram.png)
+__________________________________________________________________________________
+
+
+### Behavioural view
+#### Get traveler behaviour
+
+![Sequence diagram](Architecture/Get_traveler_behaviour.jpg)
+__________________________________________________________________________________
+
+#### IOS behavioural view
+![Sequence diagram](Architecture/IOSClientBehaviourDiagram.png)
+__________________________________________________________________________________
 
 #### Use case view
+![Use Case diagram](Architecture/use_case_diagram.jpg)
+__________________________________________________________________________________
 
 #### Deployment view
-
+TODO
 
 
 
