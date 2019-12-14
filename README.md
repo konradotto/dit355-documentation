@@ -84,18 +84,18 @@ Each model represent a view of the system.
 ### Structural view
 
 #### IOS Class diagram
-![Component Diagram](Architecture/IOSClientClassDiagram.png)
+![Class Diagram](Architecture/IOSClientClassDiagram.png)
 
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
 
 __________________________________________________________________________________
 #### Publish subscribe component diagram 
-![Component Diagram](Architecture/uppdaterad_component.jpg)
+![Component Diagram](Architecture/ComponentDiagram_Version4.png)
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
 
 __________________________________________________________________________________
 
-#### IOS component diagram
+#### IOS Client component diagram
 ![Component Diagram](Architecture/IOSClientComponentsDiagram.png)
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
 
