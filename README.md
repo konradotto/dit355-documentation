@@ -123,8 +123,9 @@ ________________________________________________________________________________
 __________________________________________________________________________________
 
 #### Deployment view
-TODO
-
+![Deployment diagram](Architecture/DIT355_Deployment_Diagram_v1.png)
+* to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+__________________________________________________________________________________
 
 
 ## Files
