@@ -106,6 +106,10 @@ ________________________________________________________________________________
 #### Get traveler behaviour
 
 ![Sequence diagram](Architecture/Get_traveler_behaviour.jpg)
+The user(Västtrafik) chooses to view traveler behaviour. The visualizer will then subscribe to the relevant topic from the broker that is getting publishes from our generator.  The coordinates goes through a filter so that whatever is relevant is given to the visualizer. If the amount of data points received by the visualizer is less than a certain threshold it will render the map and show it to the user.
+
+If the amount of data points are more than the threshold the circuit breaker will stop the inbound data temporarily, the visualizer will keep rendering the map with the data points it has already received and tell the circuit breaker when it is ready to receive more data points.
+
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
 
 __________________________________________________________________________________
