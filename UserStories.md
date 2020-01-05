@@ -68,6 +68,6 @@
 ## US 10.
 * As a cityplanner I want the system to cluster requests so that I can see where most requests are sent in a overview.
 ### Acceptance Criteria:
-26. The points on map shall be clustered
-27. the clustering should group accurately
+29. The points on map shall be clustered
+30. the clustering should group accurately
 
