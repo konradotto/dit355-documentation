@@ -93,7 +93,10 @@ ________________________________________________________________________________
 ![Component Diagram](Architecture/ComponentDiagram_Version4.png)
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
 
-#### Conceptual component pubsub & pipe n filter - diagram __________________________________________________________________________________
+__________________________________________________________________________________
+
+
+#### Conceptual component diagram : pubsub & pipe n filter
 ![Conceptual Component Diagram](Architecture/component_diagram_conceptual.jpg)
 
 *  to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/Architecture/component_diagram_conceptual.jpg)
