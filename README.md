@@ -136,6 +136,11 @@ ________________________________________________________________________________
 
 #### Use case view
 ![Use Case diagram](Architecture/use_case_diagram.jpg)
+
+The usecase diagram shows what each actor wants to be able to do.
+These usecases are implemented in the system and this shows the relations between the actor and their respective usecases.
+The actors are city planners and västtrafik. The square that contains the usecases inside is the system boundary.
+The visualizer has two ways to represent data. Either it is from a map or diagrams where the city planners and västtrafik can see the data.
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
 
 __________________________________________________________________________________
