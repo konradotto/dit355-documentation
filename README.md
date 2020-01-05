@@ -91,6 +91,7 @@ Each model represent a view of the system.
 __________________________________________________________________________________
 #### Publish subscribe component diagram 
 ![Component Diagram](Architecture/ComponentDiagram_Version4.png)
+The communication layer has the broker component, which is the middleware between the different systems. The broker recieves information from the generator component in the publisher subsystem. The filter subsystem subscribes to specific data via the filter manager component, which also controls which filter to be used. The filters are communication with eachother via the pipe components. The filter republishes to a desired topic via the broker.  The presentation layer holds the data reciever component which will recieve the processed data. It has a data transformer component with the responsibility to transform the data into several session. The different sessions can then be visualized on the graphical view component that uses a map api to show the map. 
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
 
 __________________________________________________________________________________
