@@ -93,6 +93,8 @@ ________________________________________________________________________________
 ![Component Diagram](Architecture/ComponentDiagram_Version4.png)
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
 
+(Architecture/component_diagram_conceptual.jpg)
+*  to get download version of the model visit  [Models](Architecture/component_diagram_conceptual.jpg)
 __________________________________________________________________________________
 
 #### IOS Client component diagram
