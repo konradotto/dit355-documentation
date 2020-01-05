@@ -98,9 +98,11 @@ ________________________________________________________________________________
 
 #### Conceptual component diagram : pubsub & pipe n filter
 ![Conceptual Component Diagram](Architecture/component_diagram_conceptual.jpg)
-
+The broker component is the communicator/middleware in this distributed system. It recieves publishes from the data-generator component. The filter recieves the data from the generator and communicatate via another filter through the pipe component. The Visualiser is the UI and consist of a data reciever that collects data into multiple sessions. The visualizer then display the stored data on a map using a map api.  
 *  to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/blob/master/Architecture/component_diagram_conceptual.jpg)
-__________________________________________________________________________________
+
+
+_________________________________________________________________________________
 
 #### IOS Client component diagram
 ![Component Diagram](Architecture/IOSClientComponentsDiagram.png)
