@@ -64,3 +64,10 @@
 26. The points on map shall remain when internet dies
 27. the map should still be working if there is no net
 28. the app should not erase every data if it crashes
+ 
+## US 10.
+* As a cityplanner I want the system to cluster requests so that I can see where most requests are sent in a overview.
+### Acceptance Criteria:
+29. The points on map shall be clustered
+30. the clustering should group accurately
+
