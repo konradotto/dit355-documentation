@@ -150,7 +150,17 @@ ________________________________________________________________________________
 
 #### Deployment view
 ![Deployment diagram](Architecture/DIT355_Deployment_Diagram_v1.png)
+The deployment diagram shows the strcuture of the final system. It encompasses the different types of technologies 
+and third party libraries used for the whole system. 
+We have 3 major packages along with a transportation package. The reason behind not having the fault tolerance layer within the deployment 
+diagram is for the reason that we integrated the fault tolerance within the pipe and filter. 
+For the IOS client were using the local components Foundation (Classes, backend logic), UIKit (Internal Interface builder), MapKit (Internal IOS Map), CoreLocation (IOS Location Formatter). Three artifacts which are in essence classes that are using external third party libraries.
+The Python API has a script that contains the internal components as different classes. We have three external components JSON, Paho-mqtt, Bus_stops_Gothenburg that assist with formatting, connecting, and data sourcing respectively.
+And finaly for the Java API we have the internal components serving the system as different classes as well.  We're using the same external library as used for the Python API and that is Paho, which assists with connectivity.
+
+
 * to get download version of the model visit  [Models](https://git.chalmers.se/courses/dit355/2019/group-9/dit355-project-documentation/tree/master/Architecture)
+
 __________________________________________________________________________________
 
 
