@@ -28,7 +28,7 @@ _________
 #### Issues: 
 * With resiliecne 4
 #### Working on:
-*Continue with fault tolerance and circuit breaker
+* Continue with fault tolerance and circuit breaker
 _________
 
 ### Kondrad
